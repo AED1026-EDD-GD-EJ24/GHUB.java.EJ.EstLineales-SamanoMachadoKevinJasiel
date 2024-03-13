@@ -1,9 +1,12 @@
 package miPrincipal;
 
-public class ClienteMain
+public class DemoPila
 {
-    public static void main (String [] args)
+    public static void Menu()
     {
+        System.out.println("*****************");
+        System.out.println("    DEMO PILA");
+        System.out.println("*****************\n");
         Pila<Integer> Pila = new Pila<Integer>();
 
         Pila.apilar(2);
@@ -14,5 +17,8 @@ public class ClienteMain
         System.out.println("El tope de la pila es " + Pila.cima());
         Pila.retirar();
         System.out.println("El tope de la pila es " + Pila.cima());
+        Pila.retirar();
+        System.out.println("El tope de la pila es " + Pila.cima());
+        
     }
 }
