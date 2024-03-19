@@ -15,6 +15,8 @@ public class Principal
             System.out.println("1) Pila");
             System.out.println("2) Stack");
             System.out.println("3) Delimitador");
+            System.out.println("4) Expresion infija-postfija");
+            System.out.println("5) Cola");
             System.out.println("            ");
             System.out.println("0) SALIR");
             System.out.print("Selecciona opción:");
@@ -26,6 +28,8 @@ public class Principal
                 case 1: DemoPila.Menu(); System.out.println(); break;
                 case 2: DemoStack.Menu(); System.out.println(); break;
                 case 3: DemoDelimitadores.Menu(); System.out.println(); break;
+                case 4:
+                case 5: DemoCola.Menu(); System.out.println(); break;
             
                 case 0: System.out.println("ADIOS!"); consola.close(); break;
              default:
