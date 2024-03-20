@@ -9,18 +9,18 @@ public class DemoCola
         System.out.println("*****************\n");
         Cola<Integer> Cola = new Cola<Integer>();
 
-        Cola.Encolar(12);
-        Cola.Encolar(13);
-        Cola.Encolar(14);
-        Cola.Encolar(15);
+        Cola.encolar(12);
+        Cola.encolar(13);
+        Cola.encolar(14);
+        Cola.encolar(15);
 
-        System.out.println("El primer elemento de la cola es: " + Cola.Frente());
-        Cola.Desencolar();
-        System.out.println("El primer elemento de la cola es: " + Cola.Frente());
-        Cola.Desencolar();
-        System.out.println("El primer elemento de la cola es: " + Cola.Frente());
-        Cola.Desencolar();
-        System.out.println("El primer elemento de la cola es: " + Cola.Frente());
+        System.out.println("El primer elemento de la cola es: " + Cola.frente());
+        Cola.desencolar();
+        System.out.println("El primer elemento de la cola es: " + Cola.frente());
+        Cola.desencolar();
+        System.out.println("El primer elemento de la cola es: " + Cola.frente());
+        Cola.desencolar();
+        System.out.println("El primer elemento de la cola es: " + Cola.frente());
         
     }
 }
