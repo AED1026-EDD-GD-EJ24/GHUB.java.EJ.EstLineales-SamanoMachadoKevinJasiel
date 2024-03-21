@@ -24,7 +24,7 @@ public class DemoQueue
         System.out.println("*****************\n");
 
         //Creamos una cola generica
-        Queue micola = new LinkedList();
+        Queue<String> micola = new LinkedList<String>();
 
        //Agregamos tres elementos a la cola
        micola.add("Elemento 0");
